@@ -44,7 +44,7 @@ function OnOff(props: PropsType) {
            props.onClick(true)}}>On</div>
         <div style={offStyle} onClick={() => {
             props.onClick(false)}}>Off</div>
-        <div style={indicatorStyle}></div>
+        {/*<div style={indicatorStyle}></div>*/}
     </div>
 }
 

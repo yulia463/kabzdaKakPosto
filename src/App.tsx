@@ -44,7 +44,7 @@ function App() {
         <div className={"App"}>
             <OnOff  on={switchOn} onClick={(on)=>{setSwitchOn(on)}}/>
 
-<UncontrolledOnOff/>
+<UncontrolledOnOff />
 
             <UnControlledAccordion titleValue={"Meny"}/>
             <Accordion onClick={()=>{setAccordionCollapsed(!accordionCollapsed )}} title={"Meny1"} collapsed={accordionCollapsed} />
